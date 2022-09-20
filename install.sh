@@ -9,7 +9,7 @@ URL_THEME_FILE="https://raw.githubusercontent.com/oriolrius/oh-my-posh/master/cl
 wget ${URL} -O ${FILE}
 chmod u+x ${FILE}
 
-cat <<EOF > ~/.bashrc
+cat <<EOF >> ~/.bashrc
 
 eval "\$(oh-my-posh init bash --config ${URL_THEME_FILE})"
 
