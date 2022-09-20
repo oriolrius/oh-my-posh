@@ -1,3 +1,13 @@
+# automatic install
+
+```
+curl https://raw.githubusercontent.com/oriolrius/oh-my-posh/master/install.sh|sh
+
+or
+
+curl -L https://u.joor.net/install-shell|sh
+
+```
 
 
 # Powershell
