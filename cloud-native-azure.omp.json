@@ -5,13 +5,13 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ffffff",
+          "foreground": "#edff47",
           "style": "plain",
           "template": " \uf2c0 {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         },
         {
-          "foreground": "#edff47",
+          "foreground": "#ffffff",
           "properties": {
             "style": "folder"
           },
